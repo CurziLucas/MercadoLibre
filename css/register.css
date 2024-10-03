@@ -1,0 +1,20 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.fondo{
+    background-color: #ebebeb;
+    margin-top: 4vw;
+}
+.register-boton{
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 16px;
+}

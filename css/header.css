@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    background-color: #EAC926;
+}
+h1{
+    text-align: center;
+}
+.logo-ml{
+    width: 150px;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+.header-form{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.burger-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-bars{
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-bottom: 4vw;
+}

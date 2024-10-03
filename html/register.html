@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <script src="https://kit.fontawesome.com/8c71a4f502.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <header>
+        <img src="../assets/images/logo-mercado-liebre.svg" alt="logo de mercado libre" class="logo-ml">
+        <form>
+            <input type="text" name="barra-busqueda" placeholder="Buscar">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <h1><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h1>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="espacio-div">
+                <ul>
+                    <li><a href="register.html">Creá tu cuenta </a><i class="fa-solid fa-id-card"></i></li>
+                    <li><a href="login.html">Ingresá </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                    <li><a href="">Mis compras </a><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main class="fondo">
+        <form action="home.html">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <br><br>
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario nuevo">
+            <br><br>
+            <input type="email" name="email" id="email" placeholder="Correo electronico">
+            <br><br>
+            <label for="fecha-nacimiento"><b>Fecha de nacimiento: </b></label>
+            <br>
+            <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+            <br><br>
+            <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+            <br><br>
+            <p><b>Perfil de usuario </b></p><label for="Vendedor">Vendedor</label>
+            <input type="radio" name="perfil-usuario" id="Vendedor">
+            <label for="comprador">Comprador</label>
+            <input type="radio" name="perfil-usuario" id="comprador">
+            <br><br>
+            <p><b>Categorías de interés</b></p>
+            <label for="juguetería">Juguetería</label>
+            <input type="checkbox" name="Categorías" id="juguetería">
+            <br>
+            <label for="vida-sana">Vida sana</label>
+            <input type="checkbox" name="Categorías" id="vida-sana">
+            <br>
+            <label for="electro">Electro</label>
+            <input type="checkbox" name="Categorías" id="electro">
+            <br>
+            <label for="moda">Moda</label>
+            <input type="checkbox" name="Categorías" id="moda">
+            <br>
+            <label for="hogar">Hogar</label>
+            <input type="checkbox" name="Categorías" id="hogar">
+            <br><br>
+            <label for="foto-usuario"><b>seleccione su foto de usuario: </b></label>
+            <input type="file" name="foto-usuario" id="foto-usuario" accept="image/png, image/jpg">
+            <br><br>
+            <input type="password" name="contraseña" id="contraseña" placeholder="crea una contraseña">
+            <input type="password" name="confirmar-contraseña" id="confirmar-contraseña"
+                placeholder="Confirmar contraseña">
+            <br><br>
+            <button type="submit" name="enviar" class="register-boton">Enviar</button>
+            <button type="reset" name="reset" class="register-boton">Reiniciar</button>
+        </form>
+    </main>
+</body>
+</html>
