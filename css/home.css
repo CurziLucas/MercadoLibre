@@ -7,22 +7,21 @@
     text-decoration: none;
     color: black;
 }
-div{
-    margin-top: 10px;
-}
 .titular{
     font-size: 24px;
 }
 .img{
     margin-top: 10px;
     margin-bottom: 38px;
-    width: 200px;
+    width: 200px
 }
 .precios{
     font-size: 18px;
+    margin-right: 0px;
 }
 .descuentos{
     font-size: 16px;
+    margin-left: 0px;
     color: #39b54a;
 }
 .descripciones{
@@ -32,7 +31,6 @@ div{
     margin-right: 15px;
     border-top: 1px solid;
     border-color:#ebebeb ;
-    display: none;
 }
 .fondo{
     background-color: #ebebeb;
@@ -43,6 +41,7 @@ div{
 .bg-white{
     background-color: white;
     width: 90%;
+    height: auto;
     margin: 5vw;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -52,7 +51,7 @@ div{
     position: absolute;
     margin-top: 51%;
     width: 7%;
-    left: 3%;
+    left: 8%;
     font-size: 15px;
     border: 1px solid;
     border-radius: 90%;
@@ -64,6 +63,13 @@ div{
     margin-left: 15px;
     margin-right: 15px;
 }
+.juntos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 48vw; 
+}
 main{
     margin-bottom: 2vw;
 }
@@ -72,7 +78,7 @@ main{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .bg-white{
         position: relative;
@@ -85,10 +91,22 @@ main{
         width: 17%;
         left: 12%;
     }
-    .descripciones{
-        display: block;
+    .articulo{
+        width: 50%;
     }
-    
+    .precios{
+        margin-right: 0px;
+    }
+    .descuentos{
+        margin-left: 6px;
+    }
+    .juntos{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 4.3vw; 
+    }
 }
 @media (min-width: 1024px) {
     .bg-white{
@@ -96,8 +114,11 @@ main{
         margin: 2vw;
     }
     .stiker{
-        margin-top: 98%;
+        margin-top: 92%;
         width: 17%;
         left: 7%;
+    }
+    .articulo{
+        width: 25%;
     }
 }

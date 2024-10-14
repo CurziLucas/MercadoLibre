@@ -3,11 +3,15 @@
 header{
     background-color: #EAC926;
 }
+.h1{
+    text-align: center;
+    margin-top: 10px;
+}
 .nav{
     display: none;
 }
-h1{
-    text-align: center;
+.nav ul{
+    list-style: none;
 }
 .logo-ml{
     width: 150px;
@@ -15,8 +19,8 @@ h1{
     margin-left: 5vw;
 }
 .header-form{
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 5vw;
+    margin-right: 5vw;
 }
 .burger-menu{
     display: flex;
@@ -32,12 +36,55 @@ h1{
     margin-top: 2vh;
     margin-bottom: 4vw;
 }
+.lbh{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
 @media (min-width: 768px) {
     .burger-menu{
         display: none;
     }
+    .header-form{
+        margin-right: 0;
+    }
+    .h1{
+        margin-top: 5vw;
+        margin-right: 5vw;
+    }
     .nav{
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5vh;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .navega li{
+        margin: 0 10px;
+        margin-bottom: 2vh;
+    }
+    .cuenta li{
+        margin: 0 10px;
+        margin-bottom: 2vh;
     }
 }
-
+@media (min-width: 1024px){
+    .logo-ml{
+    width: 300px;
+    }
+    .header-form{
+        margin-top: 8vh;
+        font-size: 17px;
+    }
+    .h1{
+        margin-top: 8vh;
+        font-size: 17px;
+    }
+    
+}
