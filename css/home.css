@@ -31,6 +31,7 @@
     margin-right: 15px;
     border-top: 1px solid;
     border-color:#ebebeb ;
+    display: none;
 }
 .fondo{
     background-color: #ebebeb;
@@ -45,7 +46,13 @@
     margin: 5vw;
     margin-top: 5px;
     margin-bottom: 5px;
+    transition: display 2s, boxshadow 4s, transform 2s;
+}
+.bg-white:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.bg-white:hover .descripciones{
+    display: block;
 }
 .stiker{
     position: absolute;
@@ -57,6 +64,13 @@
     border-radius: 90%;
     padding: 1vw;
     color:#39b54a;
+}
+.bg-white:hover .stiker{
+    animation: 3s  alternate ani-logo;
+}
+@keyframes ani-logo{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(-90deg)}
 }
 .textos{
     text-align: start;

@@ -7,3 +7,23 @@
     font-size: 2em;
     color: #1259c3;
 }
+
+@media (min-width: 1024px){
+    .flex-footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .icon:hover{
+        color: #03264C;
+    }
+    .flex-arriba{
+        width: 24%;
+        margin: 2vh 3vh 1vh 3vh;
+    }
+    .flex-abajo{
+    margin-top: 1vh;
+    margin-right: 70%;
+    }
+}
